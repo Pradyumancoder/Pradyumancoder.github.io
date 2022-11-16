@@ -1,0 +1,14 @@
+import React from "react";
+import { AiOutlineLoading3Quarters } from "react-icons/ai";
+import { HiDotsHorizontal } from "react-icons/hi";
+
+const SkeletonFooter = () => {
+  return (
+    <div className="flex justify-center gap-4 items-center w-full h-16  text-white bg-gray-900  px-4 z-10 animate-pulse">
+      Footer Loading....<HiDotsHorizontal className="animate-pulse"></HiDotsHorizontal>
+      <AiOutlineLoading3Quarters className="animate-spin-slow "></AiOutlineLoading3Quarters>
+    </div>
+  );
+};
+
+export default SkeletonFooter;
