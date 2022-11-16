@@ -1,16 +1,39 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.bc178a0e.js",
-    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/static/css/main.c9b1dde4.css",
+    "main.js": "/static/js/main.ab418e66.js",
+    "static/media/weather.png": "/static/media/weather.399ecb175862591c6e6a.png",
+    "static/media/MovieApp-Redux-React.png": "/static/media/MovieApp-Redux-React.a0ed7d860402f66577ea.png",
+    "static/media/movieapp.png": "/static/media/movieapp.a9c52ec38b6bf3f299f4.png",
+    "static/media/travellocity.png": "/static/media/travellocity.f26ae455b85134d110b5.png",
+    "static/media/foodapp.png": "/static/media/foodapp.190983a684b413620747.png",
+    "static/media/zee5.png": "/static/media/zee5.b3f5c7e55a35ad7c6f9f.png",
+    "static/media/redux.png": "/static/media/redux.6e66cd4ff6a497e88bde.png",
+    "static/media/myhours.png": "/static/media/myhours.598f4bef5d347bda9af5.png",
+    "static/media/techskils.png": "/static/media/techskils.5fe3d455ce2fed6cb0f4.png",
+    "static/media/chakra.png": "/static/media/chakra.0a16c944a38a86de90dc.png",
+    "static/media/express.png": "/static/media/express.782235e7d4d873697170.png",
+    "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/vscode.png": "/static/media/vscode.a773f9595b0d9ac77fa8.png",
+    "static/media/github.png": "/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/Gowtham-Chokkalinga-fw20_0116.jpg": "/static/media/Gowtham-Chokkalinga-fw20_0116.0c027395741667331dcd.jpg",
+    "static/media/settings.png": "/static/media/settings.d2b779c9a3cc3f88f301.png",
+    "static/media/question.png": "/static/media/question.3a0e14bdf104cec6e845.png",
+    "static/media/html.png": "/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/envelope.png": "/static/media/envelope.cb392634839fbe479f91.png",
+    "static/media/git.png": "/static/media/git.0d413ff6ac352dd5413e.png",
+    "static/media/contact.png": "/static/media/contact.fe0c19bf686f6ad21dcf.png",
+    "static/media/edit.png": "/static/media/edit.0f46e2728eb984e21ce8.png",
+    "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.bc178a0e.js.map": "/static/js/main.bc178a0e.js.map",
-    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+    "main.c9b1dde4.css.map": "/static/css/main.c9b1dde4.css.map",
+    "main.ab418e66.js.map": "/static/js/main.ab418e66.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.bc178a0e.js"
+    "static/css/main.c9b1dde4.css",
+    "static/js/main.ab418e66.js"
   ]
 }
