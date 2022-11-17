@@ -72,7 +72,7 @@ const GitStats = () => {
                 color="#F15412"
                 showWeekdayLabels={"true"}
                 blockRadius={2}
-                username="gowtham-chokkalingam" 
+                username="Pradyumancoder" 
                 transformData={selectLastHalfYear}
                 blockSize={20} 
                 fontSize={16} 
@@ -90,7 +90,7 @@ const GitStats = () => {
 
             <img
               className="w-full "
-              alt="Gowtham's Activity Graph"
+              alt="Pradyuman's Activity Graph"
               src="https://activity-graph.herokuapp.com/graph?username=Pradyumancoder&bg_color=112038&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true"
             />
             </div>
