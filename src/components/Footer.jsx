@@ -59,7 +59,7 @@ const Footer = () => {
     <div name="about" className="py-10 max-h-max flex-col items-center mx-auto gap-2 w-[100%]  text-white bg-gradient-to-b from-black to-gray-900   ">
       <p className="w-[90%] flex-col gap-4 items-center justify-center text mx-auto text-center">
 
-        Designed and Developed by Gowtham
+        Designed and Developed by Pradyuman
         <BsFillSuitHeartFill className="animate-bounce text-red-800 mt-2 mx-auto"></BsFillSuitHeartFill>
       </p>
 
