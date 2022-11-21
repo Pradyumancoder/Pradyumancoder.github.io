@@ -115,7 +115,7 @@ const Projects = () => {
               <div className="flex justify-center items-center">
                 <a href={project.link} target="_blank" rel="noopener noreferrer">
                   <div className="flex justify-center gap-4 items-center">
-                    <div className={`flex w-[50%]  px-8 py-3  duration-200 font-bold hover:scale-105 ${project.style}`}>Demo</div>
+                    <div className={`flex w-[50%]  px-8 py-3  duration-200 font-bold hover:scale-105 ${project.style}`}>Live</div>
                     <VscPreview className="animate-bounce"></VscPreview>
                   </div>
                 </a>
