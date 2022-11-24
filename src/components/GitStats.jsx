@@ -27,7 +27,6 @@ const GitStats = () => {
     }, 7000);
     return () => clearTimeout(timer);
   }, []);
-
   return loading ? (
     <SkeletonGit></SkeletonGit>
   ) : (
@@ -40,17 +39,16 @@ const GitStats = () => {
           <p className="py-6">Check out my works below</p>
           <div className="flex flex-col justify-center items-center gap-4">
             <div className="w-full grid grid-cols-1  md:grid-cols-2   md:grid-rows-2 gap-8 text-center justify-center ">
-              {/* <img
+              <img
                 className="w-[90%] mx-auto hover:shadow-bule-500 hover:scale-105 duration-150"
                 title="🔥 Get streak stats for your profile at git.io/streak-stats"
                 alt="Pradyuman streak"
                 src="https://streak-stats.demolab.com?user=Pradyumancoder&theme=nightowl&border_radius=4.8&date_format=j%20M%5B%20Y%5D"
-              /> */}
-              
+              />
               <img
                 className="w-[90%] mx-auto hover:scale-105 duration-150"
-                alt="Pradyuaman Status"
-                src="https://streak-stats.demolab.com/?user=Pradyumancoder&theme=nightowl&border_radius=4.8&date_format=j%20M%5B%20Y%5D"
+                alt="Pradyuman Github Stats"
+                src="https://github-readme-stats.vercel.app/api?username=Pradyumancoder&show_icons=true&count_private=true&theme=nightowl&border_radius=4.8&date_format=j%20M%5B%20Y%5D"
               />
 
               <img
@@ -101,5 +99,4 @@ const GitStats = () => {
     </div>
   );
 };
-
 export default GitStats;
