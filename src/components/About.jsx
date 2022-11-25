@@ -43,43 +43,10 @@ const About = () => {
         <p className="text-[1.2rem] text-justify lg:mr-[10rem]">
           I want to work in a dynamic organisation that offers opportunities to enhance my technical skills and knowledge. I hope to work in an
           organisation that trusts in me, gives me challenges and helps me to grow and develop alongside the organisation.
-          {/* I'm quite proficient in collaboration , decision-making and always accountable for my decision. Seeking to work in an environment that can
-          encourage me to succeed both personally and professionally where I can utilize my skills and knowledge not only for my growth but also for
-          the people around me. */}
+       
         </p>
         <br></br>
-        {/* <gitstact>
-          <p align="center">
-            <a href="https://github.com/gowtham-chokkalingam/github-readme-streak-stats">
-              <img
-                title="🔥 Get streak stats for your profile at git.io/streak-stats"
-                alt="Gowtham streak"
-                src="https://github-readme-streak-stats.herokuapp.com/?user=Gowtham-Chokkalingam&theme=black-ice&hide_border=true&stroke=0000&background=060A0CD0"
-              />
-            </a>
-          </p>
-
-          <br />
-          <a href="https://github.com/gowtham-chokkalingam/github-readme-stats">
-            <img
-              alt="Gowtham Github Stats"
-              src="https://github-readme-stats.vercel.app/api?username=Gowtham-Chokkalingam&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117"
-            />
-          </a>
-          <a href="https://github.com/gowtham-chokkalingam/github-readme-stats">
-            <img
-              alt="Gowtham's Top Languages"
-              src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gowtham-Chokkalingam&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117"
-            />
-          </a>
-          <br />
-          <a href="https://github.com/Gowtham-Chokkalingam/github-readme-activity-graph">
-            <img
-              alt="Gowtham's Activity Graph"
-              src="https://activity-graph.herokuapp.com/graph?username=Gowtham-Chokkalingam&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true"
-            />
-          </a>
-        </gitstact> */}
+       
       </div>
     </div>
   );
