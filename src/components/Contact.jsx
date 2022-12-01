@@ -48,7 +48,7 @@ const Contact = () => {
       Object.entries(data).forEach(([key, value]) => {
         formData.append(key, value);
       });
-      fetch("https://getform.io/f/aea4c130-9c2e-45c2-ba49-92627d814fec", {
+      fetch("https://getform.io/f/3fe863c5-56a1-4839-9e6f-070caf1a6c86", {
         method: "POST",
         body: formData,
       }).then(() => setData({ name: "", email: "", message: "" }));
