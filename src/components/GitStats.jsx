@@ -85,14 +85,7 @@ const GitStats = () => {
               </div>
             </div>
             <br />
-            <div  className="w-[90%] border-2 flex-col justify-center items-center text-center  border-white rounded-md hover:scale-105 duration-150 bg-[#0D1117]">
-
-            <img
-              className="w-full "
-              alt="Pradyuman's Activity Graph"
-              src="https://activity-graph.herokuapp.com/graph?username=Pradyumancoder&bg_color=112038&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true"
-            />
-            </div>
+           
           </div>
         </div>
       </div>
