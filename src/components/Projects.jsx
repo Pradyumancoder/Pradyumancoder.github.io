@@ -34,7 +34,7 @@ const Projects = () => {
       src: zee5,
       link: "https://zee5-pradyumancoder.vercel.app/",
 
-      git: "https://github.com/Pradyumancoder/elastic-punishment-35344",
+      git: "https://github.com/Pradyumancoder/ZEE5-CLONE",
       style: "hover:text-blue-400 duration-200",
       disc: "This was a group project. We have built this website with the help of ReactJs. My contribution in this project was to create 3 pages including landing page and its functionalities",
       techStack: ["React", "ChakraUI", "Tailwind", "NodeJS"],
@@ -44,7 +44,7 @@ const Projects = () => {
       title: "Zoomcar",
       src: Zoomcar,
       link: "https://rural-vessel-2538.vercel.app/",
-      git: "https://github.com/Pradyumancoder/rural-vessel-2538",
+      git: "https://github.com/Pradyumancoder/ZOOMCAR-CLONE",
       style: "hover:text-blue-400 duration-200",
       disc: "This was an Individual Project. In this I have created on Homepage, Login page with help of React , Chakra and Bootstrap for UI.",
       techStack: ["React", "ChakraUI", "REST API"],
