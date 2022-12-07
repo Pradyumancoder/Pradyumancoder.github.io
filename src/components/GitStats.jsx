@@ -57,8 +57,6 @@ const GitStats = () => {
                 src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pradyumancoder&langs_count=8&count_private=true&layout=compact&theme=nightowl&border_radius=4.8&date_format=j%20M%5B%20Y%5D"
               />
             </div>
-            
-            
             <br />
             <div className="w-[90%] border-2 flex-col justify-center items-center text-center sm:block hidden border-white rounded-md p-4 bg-[#112038]">
               <div className="flex justify-between">
@@ -80,16 +78,16 @@ const GitStats = () => {
               </GitHubCalendar>
               <div className="flex justify-between">
               <BiTargetLock size={20} className='animate-spin-slow'></BiTargetLock>
-                <h2 className="capitalize font-bold text-cyan-400">   </h2>
+                <h2 className="capitalize font-bold text-cyan-400"></h2>
                 <BiTargetLock size={20} className='animate-reverse-spin'></BiTargetLock>
               </div>
             </div>
-            <br />
-           
+            <br/>
           </div>
         </div>
       </div>
     </div>
   );
 };
+
 export default GitStats;

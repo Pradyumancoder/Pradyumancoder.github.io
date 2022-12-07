@@ -32,7 +32,7 @@ const Projects = () => {
       id: 0,
       title: "Zee5",
       src: zee5,
-      link: "https://vidfy-elastic-punishment.netlify.app/",
+      link: "https://zee5-pradyumancoder.vercel.app/",
 
       git: "https://github.com/Pradyumancoder/elastic-punishment-35344",
       style: "hover:text-blue-400 duration-200",
