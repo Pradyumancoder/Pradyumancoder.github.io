@@ -69,6 +69,7 @@ const GitStats = () => {
                 color="#F15412"
                 showWeekdayLabels={"true"}
                 blockRadius={2}
+              
                 username="Pradyumancoder" 
                 blockSize={15} 
                 fontSize={16} 
