@@ -70,8 +70,7 @@ const GitStats = () => {
                 showWeekdayLabels={"true"}
                 blockRadius={2}
                 username="Pradyumancoder" 
-                transformData={selectLastHalfYear}
-                blockSize={20} 
+                blockSize={15} 
                 fontSize={16} 
               >
                 <ReactTooltip delayShow={20} html />
