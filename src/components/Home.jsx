@@ -6,7 +6,7 @@ import { AiOutlineLoading3Quarters } from "react-icons/ai";
 
 import { FiExternalLink, FiSend } from "react-icons/fi";
 import { MdWavingHand } from "react-icons/md";
-import Typed from "react-typed";
+// import Typed from "react-typed";
 import { HiOutlineMail } from "react-icons/hi";
 import { Link } from "react-scroll";
 import SkeletonHome from "./Skeleton/SkeletonHome";
@@ -64,20 +64,11 @@ const Home = () => {
             </span>
           </h2>
           <span className="text-blue-700 text-[1.4rem] sm:text-[1.8rem] font-bold">
-            <Typed strings={["Full-Stack Web-Developer", "MERN Stack-Developer"]} typeSpeed={100} backSpeed={50} loop></Typed>
+            <div strings={["Full-Stack Web-Developer", "MERN Stack-Developer"]} typeSpeed={100} backSpeed={50} loop></div>
           </span>
           <p className="text-gray-200 text-[1.2rem] py-4 max-w-md text-justify">
             A passionate Full Stack Software Developer having an experience of building Web applications with HTML, CSS, JavaScript, Reactjs, Nodejs,
             MongoDb and some other cool libraries and frameworks.
-            {/* A passionate full-stack web developer, who loves to buid cool projects and work in a team. I want to achieve global recognition and
-            exposure with my skillset, toolset and mindset. */}
-            {/* 
-            A passionate aspiring Full Stack Developer skilled in MERN stack. Actively ready to join in a great lively team in a good start-up environment and give my best
-
-
-            Full-Stack Developer, Dedicated to developing robust applications that interact with the Front & Backend part of web applications.
-            Extensive expertise in website architecture, design, and web design, and web API designs. Problem-solving mindset with a goal to optimize
-            my application for better stability and speed. Love to work in a team. */}
             
           </p>
           <div>
