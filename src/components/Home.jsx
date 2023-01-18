@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import ProPic from "../assets/pradyuman-fw17_0106.jpg";
+import ProPic from "../assets/pradyuman-fw17_0106.png";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
