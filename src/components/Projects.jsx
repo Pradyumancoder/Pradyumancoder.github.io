@@ -32,8 +32,7 @@ const Projects = () => {
       id: 0,
       title: "Zee5",
       src: zee5,
-      link: "https://zee5-pradyumancoder.vercel.app/",
-
+      link: "https://vid5.vercel.app/",
       git: "https://github.com/Pradyumancoder/ZEE5-CLONE",
       style: "hover:text-blue-400 duration-200",
       disc: "This was a group project. We have built this website with the help of ReactJs. My contribution in this project was to create 3 pages including landing page and its functionalities",
@@ -63,7 +62,7 @@ const Projects = () => {
       id: 3,
       title: "Bath&BodyWork",
       src: bathbodyWork,
-      link: "https://iakashmondal.github.io/bath-and-body-works-2/",
+      link: "https://harshvyas2704.github.io/bath-and-body-works-2/",
       git: "https://github.com/IAkashMondal/bath-and-body-works-2",
       style: "hover:text-blue-400 duration-200",
       disc: "This is simple moive searching app, and by default this app will shows the trending moives. I have built this website with help of plain java script and used OMBD api for fetching the data",
