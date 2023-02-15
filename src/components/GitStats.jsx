@@ -45,6 +45,7 @@ const GitStats = () => {
                 alt="Pradyuman streak"
                 src="https://streak-stats.demolab.com?user=Pradyumancoder&theme=nightowl&border_radius=4.8&date_format=j%20M%5B%20Y%5D"
               />
+              
               <img
                 className="w-[90%] mx-auto hover:scale-105 duration-150"
                 alt="Pradyuman Github Stats"
