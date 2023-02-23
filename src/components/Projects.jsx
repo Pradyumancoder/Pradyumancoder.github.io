@@ -40,7 +40,7 @@ const Projects = () => {
     },
     {
       id: 1,
-      title: "Zoomcar",
+      title: "Zoomcar clone",
       src: Zoomcar,
       link: "https://zoomcar-clone-gules.vercel.app/",
       git: "https://github.com/Pradyumancoder/ZOOMCAR-CLONE",
