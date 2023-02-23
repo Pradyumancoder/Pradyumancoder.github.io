@@ -4,7 +4,7 @@ import bathbodyWork from "../assets/portfolio/bath&bodyWork.png";
 import Zoomcar from "../assets/portfolio/Zoomcar.png";
 import Ideakart from "../assets/portfolio/Ideakart.png";
 import fundamental from "../assets/portfolio/fundamental.png";
-import weather from "../assets/portfolio/weather.png";
+// import weather from "../assets/portfolio/weather.png";
 import zee5 from "../assets/portfolio/zee5.png";
 
 import reactMovieapp from "../assets/portfolio/MovieApp-Redux-React.png";
