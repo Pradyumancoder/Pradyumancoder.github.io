@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.6d98420d.css",
-    "main.js": "/static/js/main.35645774.js",
+    "main.css": "/static/css/main.4ce27eb0.css",
+    "main.js": "/static/js/main.c2d17964.js",
     "static/media/fundamental.png": "/static/media/fundamental.30e7ac31fd1f99942784.png",
     "static/media/Zoomcar.png": "/static/media/Zoomcar.4870271fdacb8cae428d.png",
     "static/media/Ideakart.png": "/static/media/Ideakart.c470c8812d2d714742ac.png",
     "static/media/bath&bodyWork.png": "/static/media/bath&bodyWork.0d53a9683f4a445ba684.png",
     "static/media/zee5.png": "/static/media/zee5.b3f5c7e55a35ad7c6f9f.png",
+    "static/media/quiz.png": "/static/media/quiz.14e08c908e5a73631d22.png",
     "static/media/redux.png": "/static/media/redux.6e66cd4ff6a497e88bde.png",
     "static/media/pradyuman-fw17_0106.png": "/static/media/pradyuman-fw17_0106.54b52665e182aa8c4204.png",
+    "static/media/shop.png": "/static/media/shop.5a4837217f23ee50b05a.png",
     "static/media/techskils.png": "/static/media/techskils.5fe3d455ce2fed6cb0f4.png",
     "static/media/MovieApp-Redux-React.png": "/static/media/MovieApp-Redux-React.b395e50da550abd15a67.png",
     "static/media/chakra.png": "/static/media/chakra.0a16c944a38a86de90dc.png",
@@ -28,11 +30,11 @@
     "static/media/edit.png": "/static/media/edit.0f46e2728eb984e21ce8.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.6d98420d.css.map": "/static/css/main.6d98420d.css.map",
-    "main.35645774.js.map": "/static/js/main.35645774.js.map"
+    "main.4ce27eb0.css.map": "/static/css/main.4ce27eb0.css.map",
+    "main.c2d17964.js.map": "/static/js/main.c2d17964.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d98420d.css",
-    "static/js/main.35645774.js"
+    "static/css/main.4ce27eb0.css",
+    "static/js/main.c2d17964.js"
   ]
 }
