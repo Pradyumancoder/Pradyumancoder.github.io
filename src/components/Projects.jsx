@@ -6,6 +6,8 @@ import Ideakart from "../assets/portfolio/Ideakart.png";
 import fundamental from "../assets/portfolio/fundamental.png";
 // import weather from "../assets/portfolio/weather.png";
 import zee5 from "../assets/portfolio/zee5.png";
+import shop from "../assets/portfolio/shop.png";
+import quiz from "../assets/portfolio/quiz.png"
 
 import reactMovieapp from "../assets/portfolio/MovieApp-Redux-React.png";
 
@@ -29,55 +31,75 @@ const Projects = () => {
 
   const projects = [
     {
-      id: 0,
+      id:0,
+      title: "Shop Cart",
+      src: shop,
+      link: "https://shopcart-two.vercel.app/",
+      git: "https://github.com/Pradyumancoder/Shop-Cart",
+      style: "hover:text-blue-400 duration-200",
+      disc: "This Was an individual Project.This site have basically an online E-Commerce shoping site.",
+      techStack: ["Express,","NodeJS,","Tailwind,","Mongodb"],
+    },
+    {
+      id:1,
       title: "Zee5",
       src: zee5,
       link: "https://vid5.vercel.app/",
       git: "https://github.com/Pradyumancoder/ZEE5-CLONE",
       style: "hover:text-blue-400 duration-200",
       disc: "This was a group project. We have built this website with the help of ReactJs. My contribution in this project was to create 3 pages including landing page and its functionalities",
-      techStack: ["React", "ChakraUI", "Tailwind", "NodeJS"],
+      techStack: ["React,","Express,","Tailwind,","NodeJS,","Mongodb"],
     },
     {
-      id: 1,
+      id:2,
+      title: "Quiz App",
+      src: quiz,
+      link: "https://quize-application.vercel.app/",
+      git: "https://github.com/Pradyumancoder/Quize-application",
+      style: "hover:text-blue-400 duration-200",
+      disc: "This was a group project. We have built this website with the help of ReactJs. My contribution in this project was to create 3 pages including landing page and its functionalities",
+      techStack: ["React,","Next.js,","Mongodb,","NodeJS"],
+    },
+    {
+      id: 3,
       title: "Zoomcar clone",
       src: Zoomcar,
       link: "https://zoomcar-clone-gules.vercel.app/",
       git: "https://github.com/Pradyumancoder/ZOOMCAR-CLONE",
       style: "hover:text-blue-400 duration-200",
       disc: "This was an Individual Project. In this I have created on Homepage, Login page with help of React , Chakra and Bootstrap for UI.",
-      techStack: ["React", "ChakraUI", "REST API"],
+      techStack: ["React,","ChakraUI,","REST API"],
     },
     {
-      id: 2,
+      id: 4,
       title: "Ideakart",
       src: Ideakart,
       link: "https://ideakart-com-pradyumancoder.vercel.app/",
       git: "https://github.com/Pradyumancoder/abounding-burst-4840/tree/main/ideakart.com",
       style: "hover:text-blue-400 duration-200",
       disc: "This was an Individual Project. In this I have created on Homepage, Login page with help of React , Chakra and Bootstrap for UI.",
-      techStack: ["React", "REST API", "ChakraUI"],
+      techStack: ["React,","REST API,","ChakraUI"],
     },
     {
-      id: 3,
+      id: 5,
       title: "Bath&BodyWork",
       src: bathbodyWork,
       link: "https://harshvyas2704.github.io/bath-and-body-works-2/",
       git: "https://github.com/IAkashMondal/bath-and-body-works-2",
       style: "hover:text-blue-400 duration-200",
       disc: "This is simple moive searching app, and by default this app will shows the trending moives. I have built this website with help of plain java script and used OMBD api for fetching the data",
-      techStack: ["HTML", "CSS", "JS","Bootstrap"],
+      techStack: ["HTML,","CSS,","JS,","Bootstrap"],
     },
 
     {
-      id: 4,
+      id: 6,
       title: "Fundamental",
       src: fundamental,
       link: "https://dancing-kringle-cf125a.netlify.app/",
       git: "https://github.com/Pradyumancoder/Fundamental.com",
       style: "hover:text-blue-400 duration-200",
       disc: "This is a simple food searching app, this app will shows the foods whichever you search. I have buit this app using HTML, CSS, and JavaScript. Api used to fetch the data and rendering on DOM",
-      techStack: ["HTML", "CSS", "JS","Bootstrap"],
+      techStack: ["HTML,","CSS,","JS,","Bootstrap"],
     }
   ];
   const [loading, setLoading] = useState(true);
@@ -112,10 +134,10 @@ const Projects = () => {
               </div>
               <div className=" border-white ">
                 <div className="flex justify-center">
-                  <p className="font-600 text-[0.8rem] ">Tech Stack :</p>
+                  <p className="font-500 text-[0.8rem]">TechStack:</p>
                   {project.techStack.map((ts, id) => (
-                    <p className="font-500 text-[0.8rem] " key={id}>
-                      {ts} {id === project.techStack.length - 1 ? "" : ", "}
+                    <p className="font-500 text-[0.8rem] text-ellipsis over " key={id}>
+                      {ts} {id === project.techStack.length - 1 ?"":""}
                     </p>
                   ))}
                 </div>
