@@ -58,7 +58,7 @@ const NavBar = () => {
 
   const [download, setDownload] = useState(false);
   const [nav, setNav] = React.useState(false);
-  const pdf = "/Gowtham-Resume.pdf";
+  const pdf = "/Pradyuman-shukla-Resume.pdf";
   let resumeLink = "https://drive.google.com/file/d/1rnBHmEPEa7HK_dcnX0bOQ6NbpHRjkQRo/view?usp=share_link";
 
   const [scorll, setScroll] = useState(0);
@@ -139,8 +139,8 @@ const NavBar = () => {
       <div className={`dropdown-menu ${open ? "active" : "inactive"}`}>
         <h3>Contact Details</h3>
         <ul>
-          <DropDown img={<MdOutlineMail></MdOutlineMail>} text={"gowthamtceian@gmail.com"} />
-          {/* <DropDown img={<CiMobile3></CiMobile3>} text={"+91 8220330478"} /> */}
+          <DropDown img={<MdOutlineMail></MdOutlineMail>} text={"shuklapradyuman786@gmail.com"} />
+          {/* <DropDown img={<CiMobile3></CiMobile3>} text={"+91 9145298087"} /> */}
           <Link to={"contact"} smooth duration={500}>
             <button
               type="submit"
