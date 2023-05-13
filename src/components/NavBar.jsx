@@ -133,6 +133,7 @@ const NavBar = () => {
           setOpen(!open);
         }}
       >
+        
         {scorll > 150 ? <TfiUser className="animate-pulse" size={30}></TfiUser> : <SiGroupon className="animate-spin-slow" size={30}></SiGroupon>}
         <h1 className="text-2xl font-title ml-2 hover:scale-105 hover:text-blue-400 duration-200">{scorll > 150 ? "Pradyuman" : "Portfolio"}</h1>
       </div>
